@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*xử lý menu*/
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background-color: #f5f5f5;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+/*list product*/
+.list-product-title{
+	width: 100%;
+	text-transform: uppercase;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+.list-product-subtitle{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*product card*/
+.card-product{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+	overflow: hidden;	
+}
+.card {
+background-color: white;margin-top: 20px;margin-left: 35px;overflow: auto;width: 260px; 
+float: left;border: 2px solid #F8ABAB;border-radius: 1px;border-bottom: 6px solid #FCA5A5
+}
+.pagination-wrap {
+    text-align: center;width: 100%;float: left;display: block;
+}
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+  color: black;float: left;padding: 8px 16px;text-decoration: none;
+  transition: background-color .3s;border: 1px solid #ddd;margin: 0 4px;
+}
+.pagination a.active {
+  background-color: #4CAF50;color: white;border: 1px solid #4CAF50;
+}
+.button-buy{
+  height:30px; border-radius: 2px; background-color: red;
+}
+.name-pro{
+  text-align: 20px;
+}
+.img-pro{
+  width: 50%;padding-top: 20px;
+}
+.about{
+  font-size: 20px;
+}
+.button-buy{
+  height:30px; border-radius: 2px; background-color: red;
+}
+.search{
+  width: 400px;height:40px; border: 1px solid black; border-radius: 20px;
+}
+.button-search{
+  width: 100px;height:40px;border: 1px solid black; border-radius: 20px;
+  background-color: #F1A3A3
+}
+.icon{
+  color: white;
+}
+.div-s{
+  margin: 25px 0px 25px 450px
+}
